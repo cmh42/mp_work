@@ -9,11 +9,11 @@ def period_adjust(x, period):
 
 
 def main():
-
     period = 2 * pi
     x = period * (-13) + 0.1453
     print(period_adjust(x, period))
-
+    print("Now finished")
+    
 if __name__ == '__main__': 
     main()
 
